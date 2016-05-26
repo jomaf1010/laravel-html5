@@ -1,0 +1,31 @@
+{
+  "name": "laravel-html5",
+  "description": "Laravel , HTML5 , Gulp and Sass Boilerplate",
+  "main": "",
+  "authors": [
+    "jomaf1010 <fontanillajosephjohn@gmail.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "Laravel",
+    "HTML5",
+    "Gulp",
+    "and",
+    "Sass",
+    "Boilerplate"
+  ],
+  "homepage": "https://github.com/jomaf1010/laravel-html5",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-sass-official": ">= v3.1.1",
+    "underscore": ">=1.6.0",
+    "jquery": "1.10.2"
+  }
+}

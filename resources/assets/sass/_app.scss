@@ -1,0 +1,21 @@
+//your sass here
+.welcome-title {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: table;
+    font-weight: 100;
+    height: 300px;
+}
+
+.content {
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.title {
+    text-align: center;
+    display: inline-block;
+    font-size: 96px;
+}
