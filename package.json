@@ -1,12 +1,39 @@
 {
   "private": true,
   "scripts": {
-    "prod": "gulp --production",
-    "dev": "gulp watch"
+    "dev": "gulp devmode"
   },
-  "devDependencies": {
+  "dependencies": {
+    "bower": "^1.7.9",
     "gulp": "^3.9.1",
-    "laravel-elixir": "^5.0.0",
-    "bootstrap-sass": "^3.3.0"
+    "gulp-clean": "^0.3.2",
+    "gulp-copy": "0.0.2",
+    "gulp-imagemin": "^3.0.1",
+    "gulp-include": "^2.1.0",
+    "gulp-load-plugins": "^1.2.0",
+    "gulp-sass": "^2.2.0",
+    "gulp-size": "^2.1.0",
+    "gulp-util": "^3.0.7",
+    "gulp-watch": "^4.3.5",
+    "run-sequence": "^1.1.5"
+  },
+  "options": {
+    "dest": "public/assets/",
+    "js": {
+      "src": "resources/assets/js/*.js",
+      "watch": "resources/assets/lib/**/*.js"
+    },
+    "css": {
+      "src": "resources/assets/css/**/*.scss",
+      "watch": "resources/assets/sass/**/*.scss"
+    },
+    "images": {
+      "src": "resources/assets/images/**/*",
+      "dest": "public/assets/images/"
+    },
+    "fonts": {
+      "src": "resources/assets/fonts/**/*",
+      "dest": "public/assets/fonts/"
+    }
   }
 }
